@@ -1,0 +1,125 @@
+.dashboard #content-main {
+    float: left;
+    width: 182%;
+}
+.dashboard #content-related {
+    float: right;
+    width: 317px;
+    position: relative;
+    margin-right: -328px;
+}
+.login {
+    background: #7b8488c0 !important;
+}
+.login #header {
+    background: #a5e6e0;
+}
+#header h1 {
+    font-size: 19px !important;
+    color: #ffff00;
+    font-weight: bold;
+}
+img {
+    margin-right: 8px;
+}
+input[type="submit"] {
+    background: #0455ff;
+}
+form#login-form {
+    font-weight: bold;
+}
+.module caption {
+    background: #354750;
+    padding: 11px;
+    font-weight: bold;
+}
+#content-related .module h2 {
+    font-weight: bold;
+    background: darkgrey;
+    color: #000;
+}
+.content h1 {
+    font-weight: bold;
+}
+#user-tools {
+    font-weight: bold;
+    font-size: 13px;
+}
+body.dashboard {
+    background: #d3d3d3;
+}
+th {
+    padding: 10px;
+}
+div.breadcrumbs {
+    background: #20828f;
+    font-weight: bold;
+}
+nav#nav-sidebar {
+    margin-top: 10px;
+}
+
+button#toggle-nav-sidebar {
+    background: cadetblue;
+    color: #000000;
+    font-size: 24px;
+}
+#changelist table thead th {
+    background: burlywood;
+    font-family: cursive;
+    padding: 4px !important;
+    font-size: 12px !important;
+}
+table thead th .text a, table thead th .text span {
+    color:black;
+}
+.app-auth .content tr:nth-child(odd), .app-shop .content tr:nth-child(odd) {
+    background: #ffe5e5;
+}
+.app-auth .content tr:nth-child(even), .app-shop .content tr:nth-child(even) {
+    background: #ececec;
+}
+.object-tools a.addlink {
+    background-color: blue;
+}
+
+label img{
+    display: none !important;
+    margin-bottom: .5rem;
+}
+
+#toolbar #searchbar {
+    height: 29px !important;
+
+}
+
+.app-auth .content tr:nth-child(odd), .app-shop .content tr:nth-child(odd) {
+    background: #73a6ac;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+}
+
+.submit-row a.deletelink {
+    display: block;
+    background: var(--delete-button-bg);
+    border-radius: 4px;
+    height: auto !important;
+    padding: 10px 15px;
+    line-height: 15px;
+    color: var(--button-fg);
+}
+
+.submit-row a.closelink {
+    display: inline-block;
+    background: var(--close-button-bg);
+    border-radius: 4px;
+    padding: 10px 15px;
+    height: auto !important;
+    line-height: 15px;
+    margin: 0 0 0 5px;
+    color: var(--button-fg);
+}
