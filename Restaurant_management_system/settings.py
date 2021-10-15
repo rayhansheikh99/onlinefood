@@ -136,5 +136,5 @@ STATICFILES_DIRS = (
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','foodonlinebdt.herokuapp.com']
+ALLOWED_HOSTS = ['foodonlinebdt.herokuapp.com']
 
